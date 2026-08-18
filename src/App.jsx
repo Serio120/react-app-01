@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          Learn GitHub Codespaces <span className="heart">♥️</span> React
         </p>
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
@@ -18,11 +18,18 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React (Desactivado)
+            <MyButton />
           </a>
         </p>
       </header>
     </div>
+  );
+}
+
+function MyButton() {
+  return (
+    <button>I'm a button</button>
   );
 }
 
